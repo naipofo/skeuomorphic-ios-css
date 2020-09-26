@@ -1,0 +1,84 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Arimo', sans-serif;
+}
+/* multiple use css */
+.tripleRow{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% auto;
+}
+/* notification bar on the top */
+.notifBar{
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 1px white;
+  
+  background: linear-gradient(to bottom,#edf5f7, #bdc5c9);
+
+  border-top: 1px solid #eef5f8;
+  border-bottom: 1px solid #5c6368;
+}
+/* place to input the numbers into */
+.numInput{
+  text-align: center;
+  font-size: 38px;
+  color: white;
+
+  padding: 15px;
+
+  background: linear-gradient(to bottom, #6a7d97 0%, #264268 50%, #102e58 50%, #0b2a55 100%);
+
+  border-bottom: 1px solid #051123;
+}
+/* numpad */
+.numpad{
+  text-align: center;
+
+  border-top: 1px solid #787d82;
+}
+.numRow > div{
+  font-weight: bold;
+
+  background: linear-gradient(to bottom,#1c232d, #0e1520);
+
+  display: inline-block;
+
+  border-top: 1px solid #464c55;
+  border-left: 1px solid #464c55;
+  border-right: 1px solid #080c12;
+
+  padding: 6px;
+}
+.numRow > div > div:last-child{
+  color: #878b90;
+}
+.numRow > div > div:first-child{
+  font-size: 32px;
+  color: white;
+}
+/* bottom row of the numbar */
+.lastRow{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.lastRow > div{
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.keybutton{
+  background: linear-gradient(to bottom, #213148 0%, #0a1d35 50%, #051831 50%, #051831 100%);
+
+  border-top: 1px solid #4d5a6d;
+  border-bottom: 1px solid #1e3046;
+}
+.callbutton{
+  background: linear-gradient(to bottom, #9fd09b 0%, #40b33c 50%, #21a11a 50%, #27aa1e 100%);
+
+  border-top: 1px solid #cde3cc;
+  border-bottom: 1px solid #11530e;
+}
