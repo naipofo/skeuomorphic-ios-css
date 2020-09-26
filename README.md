@@ -4,10 +4,14 @@ This is an *almost* pixel perfect recreation of ios 4 skeuomorphic design forms.
 
 There is a lot of annoyances in skeuomorphic design that apple uses. For example the borders around the buttons on the dialer are a shade lighter than the lightest part of the button, so you can't use transparency to define those.
 
-
+## dialer
 | ios 4.2 | css + html |
 | ------------ | ------------ |
-| ![](https://github.com/naipofo/skeuomorphic-ios-css/blob/master/screenshot/ios-dialer.png?raw=true) | ![](https://github.com/naipofo/skeuomorphic-ios-css/blob/master/screenshot/css-dialer.png?raw=true) |
+| ![](https://raw.githubusercontent.com/naipofo/skeuomorphic-ios-css/master/screenshots/ios-dialer.png) | ![](https://raw.githubusercontent.com/naipofo/skeuomorphic-ios-css/master/screenshots/css-dialer.png) |
+## notes
+| ios 4.2 | css + html |
+| ------------ | ------------ |
+| ![](https://raw.githubusercontent.com/naipofo/skeuomorphic-ios-css/master/screenshots/ios-notes.PNG) | ![](https://raw.githubusercontent.com/naipofo/skeuomorphic-ios-css/master/screenshots/css-notes.png) |
 
 Fell free to recreate any other ios forms and pull request here.
 
