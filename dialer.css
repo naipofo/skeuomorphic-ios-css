@@ -4,11 +4,13 @@ html, body{
 }
 body{
   font-family: 'Arimo', sans-serif;
+  user-select: none;
 }
 /* multiple use css */
 .tripleRow{
   display: grid;
   grid-template-columns: 33.3% 33.3% auto;
+  cursor: pointer;
 }
 /* notification bar on the top */
 .notifBar{
@@ -32,6 +34,8 @@ body{
   background: linear-gradient(to bottom, #6a7d97 0%, #264268 50%, #102e58 50%, #0b2a55 100%);
 
   border-bottom: 1px solid #051123;
+
+  user-select: text;
 }
 /* numpad */
 .numpad{
@@ -81,4 +85,14 @@ body{
 
   border-top: 1px solid #cde3cc;
   border-bottom: 1px solid #11530e;
+}
+/* click effect */
+.tripleRow > div:active{
+  background: #0835f2;
+
+  border-top: 1px solid #3b5ff5;
+  border-left: 1px solid #3b5ff5;
+}
+.tripleRow > div:active > div:first-child{
+  text-shadow: 2px 2px 5px black;
 }
