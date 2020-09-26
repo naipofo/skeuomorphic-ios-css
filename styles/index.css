@@ -1,0 +1,25 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  user-select: none;
+  font-family: sans-serif;
+  background: #0b1742;
+}
+header{
+  color: white;
+  text-align: center;
+  background: #2b185f;
+  font-size: 2em;
+}
+#linkList > a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  padding: 0.2em;
+  margin: 0.1em;
+  border: 3px solid rgb(0, 173, 130);
+  background: rgba(255, 255, 255, 0.11);
+}
