@@ -1,0 +1,15 @@
+<svg height="300" width="300"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<marker id="a" orient="auto" overflow="visible" refX="0.0" refY="0.0">
+		<path d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" transform="matrix(.8 0 0 .8 10 0)"/>
+	</marker>
+	<filter id="b">
+    <feTurbulence type="fractalNoise" baseFrequency='0.4' result='noise' numOctaves="3" />
+	</filter>
+	<path d="m0 0h300v300h-300z" fill="#fff"/>
+	<g stroke-width="1">
+		<path d="m0 0h300v300h-300z" fill="#fffca9"/>
+		<path d="m0 0h300v300h-300z" filter="url(#b)" marker-end="url(#a)" opacity=".2"/>
+	</g>
+</svg>

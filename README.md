@@ -11,7 +11,7 @@ There is a lot of annoyances in skeuomorphic design that apple uses. For example
 
 Fell free to recreate any other ios forms and pull request here.
 
-I'm not adding any licences here, cause i'm not sure about copyright when it comes to projects like those.
+I'm not adding any licences here, cause I'm not sure about copyright when it comes to projects like those.
 
 Use this at your own risk 🤷‍♀️
 
