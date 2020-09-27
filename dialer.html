@@ -9,73 +9,80 @@
 
   <!-- Arimo looks simlar to helvetica -->
   <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- interactivity -->
+  <script src="assets/scripts/dialer.js"></script>
 </head>
 <body>
   <div class="notifBar">
     05:35
   </div>
   <div class="numInput">
-    +4812345
+    
   </div>
   <div class="numpad">
     <div class="numRow tripleRow">
-      <div>
+      <div onclick="num(1)">
         <div>1</div>
       </div>
-      <div>
+      <div onclick="num(2)">
         <div>2</div>
         <div>ABC</div>
       </div>
-      <div>
+      <div onclick="num(3)">
         <div>3</div>
         <div>DEF</div>
       </div>
     </div>
     <div class="numRow tripleRow">
-      <div>
+      <div onclick="num(4)">
         <div>4</div>
         <div>GHI</div>
       </div>
-      <div>
+      <div onclick="num(5)">
         <div>5</div>
         <div>JKL</div>
       </div>
-      <div>
+      <div onclick="num(6)">
         <div>6</div>
         <div>MNO</div>
       </div>
     </div>
     <div class="numRow tripleRow">
-      <div>
+      <div onclick="num(7)">
         <div>7</div>
         <div>PQRS</div>
       </div>
-      <div>
+      <div onclick="num(8)">
         <div>8</div>
         <div>TUV</div>
       </div>
-      <div>
+      <div onclick="num(9)">
         <div>9</div>
         <div>WXYZ</div>
       </div>
     </div>
     <div class="numRow tripleRow">
-      <div>
+      <div onclick="star()">
         <div>∗</div>
       </div>
-      <div>
+      <div onclick="num(0)">
         <div>0</div>
         <div>+</div>
       </div>
-      <div>
+      <div onclick="hash()">
         <div>#</div>
       </div>
     </div>
   </div>
   <div class="tripleRow lastRow">
     <div class="keybutton">+🙍‍♀️</div>
-    <div class="callbutton">📞Call</div>
-    <div class="keybutton">⌫</div>
+    <div class="callbutton" onclick="call()">📞Call</div>
+    <div class="keybutton backspace" onclick="del()">
+      <img src="assets/backspace.svg" alt="⌫">
+    </div>
   </div>
+  <!-- gets clicked -->
+  <a href="tel:1234" id="callLink">t</a>
 </body>
 </html>
