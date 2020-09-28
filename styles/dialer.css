@@ -5,6 +5,7 @@ html, body{
 body{
   font-family: 'Arimo', sans-serif;
   user-select: none;
+  background-color: #000;
 }
 div{
   -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
@@ -20,6 +21,11 @@ div{
   font-weight: bold;
   text-align: center;
   text-shadow: 0 1px white;
+  font-size: 14px;
+
+  padding: 1px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
   
   background: linear-gradient(to bottom,#edf5f7, #bdc5c9);
 
@@ -29,7 +35,7 @@ div{
 /* place to input the numbers into */
 .numInput{
   text-align: center;
-  font-size: 38px;
+  font-size: 42px;
   color: white;
 
   height: 43px;
@@ -40,6 +46,8 @@ div{
 
   border-bottom: 1px solid #051123;
 
+  text-shadow: 0 -1.5px #0008;
+
   user-select: text;
 }
 /* numpad */
@@ -47,6 +55,8 @@ div{
   text-align: center;
 
   border-top: 1px solid #787d82;
+
+  font-family: sans-serif;
 }
 .numRow > div{
   font-weight: bold;
@@ -59,7 +69,10 @@ div{
   border-left: 1px solid #464c55;
   border-right: 1px solid #080c12;
 
-  padding: 6px;
+  padding: 5px;
+}
+.numRow:first-of-type > div{
+  border-top: 1px solid #1f2630;
 }
 .numRow > div > div:last-child{
   color: #878b90;
@@ -77,7 +90,7 @@ div{
 }
 .lastRow > div{
   padding-top: 14px;
-  padding-bottom: 14px;
+  padding-bottom: 15px;
 }
 .keybutton{
   background: linear-gradient(to bottom, #213148 0%, #0a1d35 50%, #051831 50%, #051831 100%);
@@ -90,6 +103,14 @@ div{
 
   border-top: 1px solid #cde3cc;
   border-bottom: 1px solid #11530e;
+}
+.calltext{
+  text-shadow: 0 -1.5px #0008;
+
+  display: inline-block;
+}
+.callicon{
+  display: inline-block;
 }
 .backspace{
   display: flex;

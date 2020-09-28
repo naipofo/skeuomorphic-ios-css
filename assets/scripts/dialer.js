@@ -29,3 +29,10 @@ function call() {
   callLink.href="tel:"+b
   callLink.click();
 }
+// live clock
+function clockUp() {
+  var time = new Date();
+  clock.innerHTML = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+}
+setInterval(clockUp, 1000);
+clockUp();
