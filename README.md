@@ -13,7 +13,7 @@ There is a lot of annoyances in skeuomorphic design that apple uses. For example
 | ------------ | ------------ |
 | ![](https://raw.githubusercontent.com/naipofo/skeuomorphic-ios-css/master/screenshots/ios-notes.PNG) | ![](https://raw.githubusercontent.com/naipofo/skeuomorphic-ios-css/master/screenshots/css-notes.png) |
 
-Fell free to recreate any other ios forms and pull request here.
+Feel free to recreate any other ios forms and pull request here.
 
 I'm not adding any licences here, cause I'm not sure about copyright when it comes to projects like those.
 
