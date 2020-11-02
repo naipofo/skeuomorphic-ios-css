@@ -40,15 +40,15 @@ main{
 
   background:url(../assets/lether.svg);
 
-  box-shadow: inset 0px 18px 28px -28px #ffffff, inset 0px -27px 36px -20px #00000073;
+  box-shadow: inset 0px 8px 19px -17px #ffffff, inset 0px -27px 36px -20px #00000073;
 }
 .titleBar > span{
-  filter: drop-shadow(0px -1px 0 #000);
+  filter: drop-shadow(0px -1px .5px #0008);
 }
 /* main container */
 main{
-  box-shadow: inset 0px 19em 5em -5em #ffffff30, inset 0px -12em 3em -4em #ffffff30;
-  
+  box-shadow: inset 0px 12em 3em -4em #ffffff30, inset 0px -12em 3em -4em #ffffff30;
+
   background: url(../assets/notebook.svg);
 
   background-color: #f9f469;
@@ -77,7 +77,6 @@ main{
 
   padding-top: 9px;
   margin-right: 11px;
-  
 
   display: block;
   display: grid;
